@@ -5,6 +5,7 @@
 
 import UIKit
 
+#if os(iOS)
 internal class BooleanTweakTableViewCell: UITableViewCell, TweakViewControllerCell {
 
     var feature: String?
@@ -59,3 +60,4 @@ internal class BooleanTweakTableViewCell: UITableViewCell, TweakViewControllerCe
     }
     
 }
+#endif

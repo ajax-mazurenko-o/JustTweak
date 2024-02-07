@@ -5,6 +5,7 @@
 
 import UIKit
 
+#if os(iOS)
 class TextTweakTableViewCell: UITableViewCell, TweakViewControllerCell, UITextFieldDelegate {
 
     var feature: String?
@@ -95,3 +96,4 @@ class TextTweakTableViewCell: UITableViewCell, TweakViewControllerCell, UITextFi
     }
 
 }
+#endif

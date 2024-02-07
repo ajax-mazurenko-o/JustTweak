@@ -5,6 +5,7 @@
 
 import UIKit
 
+#if os(iOS)
 class NumericTweakTableViewCell: TextTweakTableViewCell {
     
     override var keyboardType: UIKeyboardType {
@@ -14,3 +15,4 @@ class NumericTweakTableViewCell: TextTweakTableViewCell {
     }
 
 }
+#endif

@@ -3,6 +3,7 @@
 //  Copyright (c) 2016 Just Eat Holding Ltd. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 internal protocol TweakViewControllerCell: AnyObject {
@@ -276,3 +277,4 @@ extension TweakViewController {
         return searchController.isActive && !searchBarIsEmpty()
     }
 }
+#endif
