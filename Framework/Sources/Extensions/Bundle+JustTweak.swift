@@ -7,7 +7,7 @@ public extension Bundle {
 #if SWIFT_PACKAGE
         Bundle.module
 #else
-        Bundle(identifier: "org.cocoapods.JustTweak")!
+        Bundle(for: TweakManager.self)
 #endif
     }
 }
