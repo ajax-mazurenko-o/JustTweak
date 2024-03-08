@@ -52,7 +52,7 @@ public class TweakViewController: UITableViewController {
     private let tweakManager: TweakManager
     
     private class func justTweakResourcesBundle() -> Bundle {
-        let resourcesBundleURL = Bundle.justTweak.url(forResource: "Localizations", withExtension: "bundle")!
+        let resourcesBundleURL = Bundle.justTweak.url(forResource: "JustTweak_Localization", withExtension: "bundle")!
         let justTweakResourcesBundle = Bundle(url: resourcesBundleURL)!
         return justTweakResourcesBundle
     }
