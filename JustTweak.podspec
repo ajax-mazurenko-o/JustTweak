@@ -17,7 +17,7 @@ JustTweak is a framework for feature flagging, locally and remotely configure an
   s.swift_version           = '5.1'
 
   s.source_files            = 'Framework/Sources/**/*.swift'
-  s.ios.resources           = 'Framework/Sources/Resources/**/*'
+  s.ios.resources           = 'Framework/Sources/Resources/Localizations.bundle'
 
   s.preserve_paths = [
     'TweakAccessorGenerator',
